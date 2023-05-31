@@ -5,12 +5,7 @@
 
 {function renderLogo}
   <a class="navbar-brand d-block" href="{$urls.pages.index}">
-    <img
-      class="logo img-fluid"
-      src="{$shop.logo_details.src}"
-      alt="{$shop.name}"
-      width="{$shop.logo_details.width}"
-      height="{$shop.logo_details.height}"
-    >
+    <img class="logo img-fluid" src="{$shop.logo_details.src}" alt="{$shop.name}" width="220" {*width="{$shop.logo_details.width}"
+      height="{$shop.logo_details.height}"*}>
   </a>
 {/function}
