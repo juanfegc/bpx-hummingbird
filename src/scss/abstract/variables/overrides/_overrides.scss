@@ -24,7 +24,13 @@ $carousel-transition-duration: 0.25s;
 
 
 //BPX-HEADER
-
+#header,
+#header .header-top {
+  background-color: #0C1B1F !important;
+}
+.header-block__badge{
+  background-color: #F18129 !important;
+}
 
 //BPX-FOOTER
 #footer .block-social a {
