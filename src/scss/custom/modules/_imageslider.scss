@@ -5,7 +5,9 @@
   }
 
   .carousel-content {
-    height: 100%;
+    //height: 100%;
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -13,7 +15,7 @@
   min-height: 300px;
 
   --bs-aspect-ratio: calc(9 / 21 * 100%); // 21x9
-  @include media-breakpoint-up(md) {
+  /*@include media-breakpoint-up(md) {
     --bs-aspect-ratio: calc(7 / 30 * 100%); // 30x7
-  }
+  }*/
 }
