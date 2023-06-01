@@ -31,6 +31,20 @@ $carousel-transition-duration: 0.25s;
 .header-block__badge{
   background-color: #F18129 !important;
 }
+#_desktop_cart .material-icons.header-block__icon{
+  color: #ffffff;
+}
+.header a:not(.dropdown-item):not(.btn):hover,
+.header a:not(.dropdown-item):not(.btn):hover i {
+  color: #F9B41E !important;
+}
+#_desktop_contact_link{
+  color: #fff;
+}
+
+.main-menu__mobile a.menu__link{
+  color: #000 !important;
+}
 
 //BPX-FOOTER
 #footer .block-social a {

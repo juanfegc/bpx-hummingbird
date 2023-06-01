@@ -6,7 +6,7 @@ $footer-text-color: var(--bs-body-color) !default;
 .#{$component-name} {
   --footer-background-color: #{$footer-background-color};
   --footer-text-color: #{$footer-text-color};
-  --footer-hover-color: var(--bs-white);
+  --footer-hover-color: #F9B41E;
   --footer-heading-color: #{$footer-heading-color};
 
   & &__main {
