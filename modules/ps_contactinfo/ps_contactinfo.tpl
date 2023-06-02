@@ -7,7 +7,8 @@
 
   <p class="footer__block__title d-none d-md-flex">{l s='Store information' d='Shop.Theme.Global'}</p>
 
-  <div class="footer__block__toggle d-md-none collapsed" data-bs-target="#contact-infos" data-bs-toggle="collapse" aria-expanded="false">
+  <div class="footer__block__toggle d-md-none collapsed" data-bs-target="#contact-infos" data-bs-toggle="collapse"
+    aria-expanded="false">
     <span class="footer__block__title">{l s='Store information' d='Shop.Theme.Global'}</span>
     <i class="material-icons">arrow_drop_down</i>
   </div>
@@ -15,6 +16,7 @@
   <div id="contact-infos" class="footer__block__content footer__block__content-contact collapse">
 
     <div class="contact__infos">
+      <i class="material-icons">location_on</i>
       {$contact_infos.address.formatted nofilter}
     </div>
 

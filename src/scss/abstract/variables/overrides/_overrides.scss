@@ -52,6 +52,15 @@ $carousel-transition-duration: 0.25s;
   color: #000 !important;
 }
 
+#search_widget {
+  color: #f9b41e;
+}
+#search_widget form input{
+  background-color: #303435 !important;
+  color: #f9b41e;
+}
+
+
 //BPX-FOOTER
 #footer .block-social a {
   color: #0C1B1F;
@@ -59,4 +68,12 @@ $carousel-transition-duration: 0.25s;
 #footer .block-social a:hover {
   color: #F18129;
   opacity: 1;
+}
+
+#footer #contact-infos .material-icons{
+  color: #F9b41e;
+}
+
+.copyright{
+  font-size: small;
 }
